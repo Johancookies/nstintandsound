@@ -3,7 +3,7 @@ import Menu from "../assets/icons/menu.svg";
 
 function Home() {
     return (
-        <main className="flex flex-col relative w-screen min-h-screen overflow-x-hidden">
+        <main className="flex flex-col relative w-full min-h-screen">
             {/* nav */}
             <nav className="flex items-center justify-between p-6 nav-bg w-screen absolute z-50">
                 <button className="w-6 h-6 [&>*]:fill-white"><Menu /></button>
@@ -16,7 +16,7 @@ function Home() {
                     <source src="https://www.dropbox.com/scl/fi/bkwfxqzn0yw2g3dqlenyl/white.mp4?rlkey=xh6zpwg2mh5u07qd5gi7ukzyb&st=pbrxur7i&raw=1" type="video/mp4" />
                 </video>
                 {/* video content */}
-                <div className="absolute bottom-[4rem] md:bottom-[6rem] px-10 z-50 md:px-20 flex flex-col items-start gap-6">
+                <div className="absolute bottom-[6rem] px-10 z-50 md:px-20 flex flex-col items-start gap-6">
                     <h1 className="font-lemonmilk-regular text-5xl sm:text-7xl text-white md:max-w-[75%]">
                         Upgrade Your Ride with <span className="text-[#9e6eac] underline">the Best </span> Window Tinting in Miami, FL!
                     </h1>
@@ -29,8 +29,21 @@ function Home() {
             </section>
 
             {/* about */}
-            <section className="h-screen relative w-screen overflow-x-hidden">
+            <section className=" relative bg-black">
+                <div className="flex flex-col p-10 gap-2 tex text-center">
+                    <h3 className="font-lemonmilk-regular text-[#9e6eac] text-xs">DISCOVER</h3>
+                    <h2 className="font-lemonmilk-regular text-white text-2xl">OUR SERVICES</h2>
+                </div>
+                <div className="flex gap-3 py-20">
+                    <div className="flex flex-col px-40 gap-2">
+                        <div className="w-[338px] h-[450px] bg-red-500"></div>
+                        <h4 className=" text-[#9e6eac] text-xs">Car Window Tint</h4>
+                        <h4 className=" text-white">Car Window Tint</h4>
+                    </div>
+                </div>
+            </section>
 
+            <section className="h-[10vh] relative bg-white pb-40">
             </section>
 
         </main>

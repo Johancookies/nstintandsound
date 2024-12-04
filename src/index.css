@@ -14,7 +14,7 @@
 
 @font-face {
   font-family: "Explorer-Regular";
-  src: local("Explorer-Regular"), url("./assets/fonts/Explorer-Regular.otf") format("opentype");
+  src: url("./assets/fonts/Explorer-Regular.otf") format("opentype");
 }
 
 @font-face {
@@ -24,14 +24,14 @@
 
 :root {
   font-family: "Aeonik-Regular", Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #311253;
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .nav-bg {
@@ -41,7 +41,8 @@
 
 .video-bg {
   background: rgb(0, 0, 0);
-  background: linear-gradient(0deg, rgba(18, 18, 18, 0.8) 50%, rgba(255, 255, 255, 0) 100%);
+  /* background: linear-gradient(0deg, rgba(18, 18, 18, 0.8) 50%, rgba(255, 255, 255, 0) 100%); */
+  background: linear-gradient(0deg, rgb(0, 0, 0) 30%, rgba(255, 255, 255, 0) 100%);
 }
 
 video {
@@ -49,5 +50,5 @@ video {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  filter: brightness(40%);
+  filter: brightness(60%);
 }
