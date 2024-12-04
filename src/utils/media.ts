@@ -1,0 +1,3 @@
+export const MAIN_VIDEO_URL = "https://www.dropbox.com/scl/fi/qz3swhhj76fsq9pv907x8/main.mp4?rlkey=r0u911mu5skv11ie5qfumwvve&st=x3o7z7jo&raw=1";
+export const CUSTOM_HEADLIGHTS_URL = "https://www.dropbox.com/scl/fi/6a1wanxycf8tp2gaezvq3/custom-headlights.mp4?rlkey=dztqiqjq2c51nyawxg6bze7b2&st=6sswkvuu&raw=1";
+export const CUSTOM_HEADLIGHTS_THUMBNAIL_URL = "https://www.dropbox.com/scl/fi/tff11pwjbhwz5n26fivyp/tmb.png?rlkey=ulhcr6p8gdmab8sg6m4qr1kuf&st=razoggcc&raw=1"

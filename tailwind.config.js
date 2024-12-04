@@ -12,8 +12,18 @@ export default {
         'explorer-regular': ['Explorer-Regular'],
         'aeonik-regular': ['Aeonik-Regular'],
       },
+      colors: {
+        brand: {
+          main: '#c40db7',
+        }
+      }
     },
   },
-  plugins: [],
+  plugins: [
+    function ({ addVariant }) {
+      addVariant('child', '& > *');
+      addVariant('child-hover', '& > *:hover');
+    }
+  ],
 }
 
